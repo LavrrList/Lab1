@@ -1,6 +1,6 @@
-﻿/*
-#include <iostream>
+/*#include <iostream>
 #include <math.h>
+#include <iomanip>
 
 using namespace std;
 
@@ -14,6 +14,7 @@ int main()
 	cin >> b;
 	S = (a * b);
 	P = 2 * (a + b);
+	cout << fixed;
 	cout << "S = " << S << endl;
 	cout << "P = " << P << endl;
 	system("pause>>void");
@@ -22,14 +23,13 @@ int main()
 	cout << "S * P = " << S * P << endl;
 	cout << "S / P = " << S / P << endl;
 	system("pause>>void");
-	cout << "Adress a:" << &a<<endl;
+	cout << "Adress a:" << &a <<endl;
 	cout << "Adress b:" << &b << endl;
 	cout << "Adress S:" << &S << endl;
 	cout << "Adress P:" << &P << endl;
 	system("pause>>void");
 	return 0;
-}
-*/
+}*/
 
 
 /*
